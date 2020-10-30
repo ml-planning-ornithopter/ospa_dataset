@@ -6,10 +6,10 @@ The planning problem is divided in two phases, the mid-range problem and the lan
 
 Each dataset contains the following columns:
 
-1- id_trajectory: Trajectory identifier
-2- id_in_seq: Numbers of consecutive states in the trajectory
-3- initial state: Initial State 	
-4- current_state:	Sequence of consecutive states in the trajectory
+1. id_trajectory: Trajectory identifier
+2. id_in_seq: Numbers of consecutive states in the trajectory
+3. initial state: Initial State 	
+4. current_state:	Sequence of consecutive states in the trajectory
 5- goal_state: Target state 
 6- out_action: Sequence of consecutive constrol maneuvers during the flight trajectory (rad, Hz)	
 7- timesteps: Time step between consecutive control maneuvers (s)
