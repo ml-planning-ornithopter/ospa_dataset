@@ -12,6 +12,7 @@ Each dataset contains the following columns:
 5. goal_state: Target state 
 6. out_action: Sequence of consecutive control maneuvers during the flight trajectory (rad, Hz)	
 7. timesteps: Time step between consecutive control maneuvers (s)
+7. cost(W): The energy cost of taking a maneuver during a timestep value
 
 Flight states consist in a set of variables:
 1. X axis position (m)
